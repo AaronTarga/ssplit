@@ -193,7 +193,7 @@
   <main class="login-page">
     <div class="login-ornament" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
     <section class="login-panel">
-      <a class="brand" href="/" aria-label="Split home"><span class="brand-mark">s/</span><span>split</span></a>
+      <a class="brand" href="/" aria-label="Split home"><span class="brand-mark">s/</span><span>SSPlit</span></a>
       <div class="login-copy"><p class="eyebrow">A little more together</p><h1>Good company.<br /><em>Clear accounts.</em></h1><p class="login-subtitle">Shared costs, without the awkward follow-up.</p></div>
       <form class="login-form" onsubmit={authenticate}>
         <label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="username" placeholder="you@example.com" required />

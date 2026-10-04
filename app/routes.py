@@ -38,7 +38,6 @@ def register():
     email = payload.get("email", "")
     password = payload.get("password", "")
     username = payload.get("username", "")
-    print(email, password, username)
     if not isinstance(email, str) or "@" not in email:
         return jsonify({"error": f"A valid email is required. {email} is invalid"}), 400
     if not isinstance(password, str) or len(password) < 8:
